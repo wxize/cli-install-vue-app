@@ -1,5 +1,5 @@
 {
-  "name": "create-admin",
+  "name": "@cli/create-admin",
   "version": "1.0.0",
   "description": "快速创建并运行一个标准的后台模板系统",
   "bin": {
