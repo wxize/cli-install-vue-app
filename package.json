@@ -1,6 +1,6 @@
 {
   "name": "@cli/create-admin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "快速创建并运行一个标准的后台模板系统",
   "bin": {
     "create-admin": "./bin/syncwe.com.js"
