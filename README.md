@@ -1,6 +1,6 @@
 ### 基础后台管理模板辅助工具 
 
-```vue-admin-template```
+```create-admin```
 
 ---
 
@@ -9,7 +9,7 @@
 #### 创建项目
 
 ```shell
-npm run create
+npx create-admin <项目名>
 ```
 
 > 此命令会拉取我们基础项目模板

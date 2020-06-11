@@ -1,23 +1,23 @@
 {
-  "name": "cli-install-vue-admin",
+  "name": "create-admin",
   "version": "1.0.0",
-  "description": "自动下载安装启动项目脚本",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "快速创建并运行一个标准的后台模板系统",
+  "bin": {
+    "create-admin": "./bin/syncwe.com.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/synjone/cli-install-vue-admin.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["cli", "admin"],
+  "author": "wangxiaowei",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/synjone/cli-install-vue-admin/issues"
   },
   "homepage": "https://github.com/synjone/cli-install-vue-admin#readme",
-  "devDependencies": {
+  "dependencies": {
     "shelljs": "^0.8.4"
-  }
+  },
+  "files": ["bin", "cli.js"]
 }
