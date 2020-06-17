@@ -4,12 +4,14 @@
 
 ---
 
-基于 ```vue-admin-template``` fork 出来的一份基础后台管理模板，为可能基于业务的需要进行二次开发而准备。
+基于 ```vue-admin-template``` fork 出来的一份基础后台管理模板，并做了一些二次开发内容
 
 #### 创建项目
 
+* 注意，使用此命令前，确保已经配制了公司内部 npm 私有仓库
+
 ```shell
-npx create-admin <项目名>
+npx @cli/create-admin <项目名>
 ```
 
 > 此命令会拉取我们基础项目模板
