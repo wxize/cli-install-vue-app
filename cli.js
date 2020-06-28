@@ -1,19 +1,15 @@
 const shell = require('shelljs')
 
-const url = 'https://gitee.com/syncwe/vue-element-admin.git'
+const url = 'http://gitlab.xzxyun.com/campus/frontend/app-template.git'
 
-if( !shell.which('git') ) {
-	shell.echo('Sorry, this script requires git')
-	shell.exit(1)
-}
 
 const root = process.argv[2]
-
 if( !root ) {
 	shell.echo('Please input <project-name>')
-	shell.echo('use: npx @cli/create-admin hello-admin')
+	shell.echo('use: npx @cli/create-app my-app')
 	shell.exit(1)
 }
+
 
 if( shell.exec(`git clone --no-checkout ${url} ${root}`).code !== 0 ) {
 	shell.echo('Error: git clone failed')
@@ -26,12 +22,15 @@ shell.cd(root)
 shell.exec('git reset --hard HEAD')
 shell.rm('-rf', './.git')
 
+// shell.exec('npm install --registry=https://registry.npm.taobao.org')
 
-shell.exec('npm install --registry=https://registry.npm.taobao.org -dd')
+shell.echo(`	\n\n Success: Project created	\n`)
 
-shell.echo(`	\n Start Up: npm run dev	\n`)
+shell.echo(`	\n npm install --registry=https://registry.npm.taobao.org	\n`)
 
-shell.exec('npm run dev')
+shell.echo(`	\n Start Up: npm run dev	\n\n`)
+
+// shell.exec('npm run dev')
 
 
 

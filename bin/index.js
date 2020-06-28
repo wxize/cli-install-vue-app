@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+// @author wangxiaowei
 
 var fs = require('fs');
 var pkg;

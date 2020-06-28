@@ -1,13 +1,13 @@
 {
-  "name": "@cli/create-admin",
-  "version": "1.0.7",
-  "description": "快速创建并运行一个标准的后台模板系统",
+  "name": "@cli/create-app",
+  "version": "1.0.2",
+  "description": "快速创建并运行一个标准的小程序模板",
   "bin": {
-    "create-admin": "bin/syncwe.com.js"
+    "create-app": "bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/synjone/cli-install-vue-admin.git"
+    "url": "git+http://gitlab.xzxyun.com/campus/frontend/app-template.git"
   },
   "keywords": [
     "cli",
@@ -16,9 +16,9 @@
   "author": "wangxiaowei",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/synjone/cli-install-vue-admin/issues"
+    "url": "http://gitlab.xzxyun.com/campus/frontend/app-template/issues"
   },
-  "homepage": "https://github.com/synjone/cli-install-vue-admin#readme",
+  "homepage": "http://gitlab.xzxyun.com/campus/frontend/app-template#README",
   "dependencies": {
     "shelljs": "^0.8.4"
   },
